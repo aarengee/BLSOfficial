@@ -1,0 +1,93 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Brightlands</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ 
+         <link rel="stylesheet" href="style.css">
+         <style>
+      #map {
+          height:50%;
+          width:100%;
+          box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+      }
+      body
+       {
+           height:900px;
+             }
+    </style>
+    </head>
+    <body>
+
+        <div class="jumbotron"> 
+         <div class="col-sm-2 col-sm-offset-1">
+             <img id="logo" src="Brightlands-School.jpg" alt="Logo"> 
+          </div>
+           <div class="col-sm-9">
+         <div class="topdescript">
+         <h1>Brightlands School</h1>      
+        <p>A co-educational school affiliated to the Council for the Indian School Certificate Examinations</p>
+         </div>
+          </div>
+        </div>
+        <div id="xyz">
+        <nav class="navbar-inverse">
+  <div class="container-fluid">
+   <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+       <span class="glyphicon glyphicon-menu-hamburger"></span>                      
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <div class="col-sm-offset-2 col-sm-10">
+         <ul class="nav navbar-nav ">
+          <li class="active"><a href="./">HOME</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" style="margin-left:40px" data-toggle="dropdown" href="#">CAMPUS<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><div class="opt"><a href="#">Library</a></div></li>
+            <li><div class="opt"><a href="#">aasas</a></div></li>
+            <li><div class="opt"><a href="#">Page 1-3</a></div></li>
+          </ul>
+        </li>
+        <li style="margin-left:30px"><a href="#">ACHIEVEMENTS</a></li>
+        <li style="margin-left:30px"><a href="#">ADMISSIONS</a></li>
+        <li style="margin-left:30px"><a href="#">ABOUT</a></li>
+        <li style="margin-left:30px"><a href="#">FACULTY</a></li>
+        <li style="margin-left:30px"><a href="#">CONTACT</a></li>
+      </ul>
+       </div> 
+    </div>
+  </div>
+</nav>
+  </div>  
+    <div id="map" class="col-sm-4"></div>
+    <div class="contact">
+          <div class="col-sm-6">	
+           <div class="span4">
+             <div class="adress">
+             <h3>1,Dick Road Dalanwala DehraDun- 248001</h3>
+             <h3><span class="glyphicon glyphicon-earphone"></span> 0135-2656157</h3>
+    <h3><span class="glyphicon glyphicon-envelope"></span> brightlandsschool@gmail.com</h3>
+    	</div>
+    	</div>
+    	</div>
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 30.3234, lng: 78.0567},
+          zoom: 16
+        });
+           var marker = new google.maps.Marker({
+          position:{lat: 30.3234, lng: 78.0567},
+          map: map,
+          title: 'This is it'
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpJklUgR3BLZ5DuQrD_Z1XKwyEUHZEMP4&callback=initMap"
+    async defer></script>
+        </body>
+</html>

@@ -1,0 +1,77 @@
+
+.jumbotron {
+     background:white;
+     min-height: 200px;
+     color: black;
+  
+}
+.topdescript
+{
+    color: black;
+    text-shadow: #444 0 1px 1px;
+    background: transparent;
+    position: relative;
+    
+}
+#logo
+{
+   display: block;
+   margin: 0 auto;
+   width:120px;
+   height:150px;
+ }
+
+.opt
+{
+    font-size:20px;
+    padding:5px;
+    position: relative;
+}
+.fixit
+{
+    position:fixed;
+    top:0; 
+    width:100%;
+    opacity:0.8;
+}
+.photo
+{
+    width:100%;
+    height:620px;
+}
+#motto
+{
+   font-size:40px;
+    padding:20px;
+}
+.abtschool
+{
+   font-size:25px;   
+}
+.abtschool1
+{
+     font-size:25px; 
+     margin-bottom:100px;
+}
+.footer,.links
+{   clear:both;
+    background-color:black;
+    height:150px;
+}
+
+ul.links li
+{
+    list-style-type: none;
+    font-size:20px;
+    padding:22px;
+}
+ul.links li a 
+{
+    color:gray;
+}
+ul.links li a:hover
+{
+    color:white;
+    text-decoration: none;
+    
+}
