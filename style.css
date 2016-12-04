@@ -5,6 +5,10 @@
      color: black;
   
 }
+body
+{
+    z-index:0;
+}
 .topdescript
 {
     color: black;
@@ -12,6 +16,10 @@
     background: transparent;
     position: relative;
     
+}
+#xyz
+{
+    z-index: 999;
 }
 #logo
 {
