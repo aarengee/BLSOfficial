@@ -74,6 +74,10 @@ ul.links li
 }
 a 
 {
+    color:black;
+}
+ul.links a
+{
     color:gray;
 }
 ul.links li a:hover
