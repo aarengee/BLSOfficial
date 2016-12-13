@@ -7,6 +7,7 @@
 body
 {
     z-index:0;
+    min-width: 300px;
 }
 .topdescript
 {
@@ -21,6 +22,17 @@ body
 {
     z-index: 1;
 }
+.mmopt
+{
+ display:inline-block;
+    width:14.28%;
+}
+.nav
+{
+    width:100%;
+    margin:0 auto;
+    text-align:center;
+}
 #logo
 {
    display: block;
@@ -30,14 +42,17 @@ body
  }
 .opt
 {
-    font-size:20px;
+    font-size:14px;
     padding:5px;
     position: relative;
+    background: #333;
+    text-align: center;
 }
 .fixit
 {
-    position:fixed;
-    top:0; 
+    position:fixed; 
+    opacity: 0.9;
+    top:0;
     width:100%;
 }
 #bannerphoto
@@ -71,11 +86,11 @@ ul.links li
     font-size:20px;
     padding:22px;
 }
-ul.links li a 
+ul.links li a ,.opt a
 {
     color:gray;
 }
-ul.links li a:hover
+ul.links li a:hover,.opt a:hover
 {
     color:white;
     text-decoration: none;
