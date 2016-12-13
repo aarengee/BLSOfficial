@@ -1,8 +1,7 @@
 $(document).ready(function(){   
        
     var $navbar = $("#xyz"),
-        y_pos = $navbar.offset().top,
-         height = $navbar.height();
+        y_pos = $navbar.offset().top;
         winwidth= $(window).width();
     var $mainopt = $(".mainopt");
      if(($(window).width())<=768){ $mainopt.removeClass("mmopt");}
@@ -10,9 +9,9 @@ $(document).ready(function(){
     $(document).scroll(function() {
         var scrollTop = $(this).scrollTop();
 
-        if (scrollTop > y_pos + height) 
+        if (scrollTop > y_pos) 
             $navbar.addClass("fixit");
-        else if (scrollTop <= (y_pos+height)) 
+        else if (scrollTop <= (y_pos)) 
             $navbar.removeClass("fixit");
                 
     })

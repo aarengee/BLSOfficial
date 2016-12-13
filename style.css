@@ -1,4 +1,3 @@
-
 .heading {
      background:white;
      min-height: 150px;
@@ -25,7 +24,7 @@ body
 .mmopt
 {
  display:inline-block;
-    width:14.28%;
+    width:12.5%;
 }
 .nav
 {
@@ -59,13 +58,13 @@ body
 {   height:auto;
     width: 100%;
 }
-
-#motto
-{  margin-top:20px;
-   font-size:40px;
+#motto,#vision
+{  
+    margin-top:20px;
+    font-size:40px;
     padding:20px;
 }
-.abtschool
+.abtschool,.vision
 {
    font-size:25px;   
 }
@@ -75,7 +74,8 @@ body
      margin-bottom:100px;
 }
 .footer,.links
-{   clear:both;
+{   
+    clear:both;
     background-color:black;
     height:150px;
 }
