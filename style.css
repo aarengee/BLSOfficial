@@ -86,7 +86,7 @@ ul.links li
     font-size:20px;
     padding:22px;
 }
-ul.links li a ,.opt a
+ul.links li a ,.opt a,.cody
 {
     color:gray;
 }
@@ -101,6 +101,10 @@ ul.links li a:hover,.opt a:hover
     border-width: 2px;
     border-color:black;
     border-style: solid;
+}
+.cody:hover
+{
+    text-decoration: overline underline;
 }
 .vir
 {
